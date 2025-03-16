@@ -66,7 +66,7 @@ resource "humanitec_resource_definition" "vpc" {
     values_string = jsonencode({
       source = {
         path = "terraform"
-        rev  = "main"
+        rev  = "master"
         url  = "git@github.com:anupclouddevops/humanitec-poc.git"
       }
 
